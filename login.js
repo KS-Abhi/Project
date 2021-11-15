@@ -30,13 +30,13 @@ function validate()
     {   
       if(email.value=="")
       {
-      error.innerText="Provide email";
+      error.innerText="Provide valid email";
       error.style.color="red"
       }
      
      if(password.value=="")
       {
-        error1.innerText="type your password";
+        error1.innerText="Type your password";
         error1.style.color="red";
       }
         return false;
@@ -57,7 +57,7 @@ function validate()
      }
      else
      {
-       error1.innerText="password not valid";
+       error1.innerText="Password not valid";
      }
        
        if(regemail.test(email.value))
@@ -66,7 +66,7 @@ function validate()
        }
      else
        { 
-      error.innerText="provide valid email id";        
+      error.innerText="Provide valid email id";        
       } 
 
       if(p==true && q==true)
