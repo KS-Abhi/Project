@@ -48,9 +48,14 @@ marquee{
     margin-left: 9%;
     width: 60%;
     color: #fff;
+
+}
+.form-text{
+    text-align: end;
 }
 #emailHelp{
     color: #fff;
+    text-align: end;
 }
 #passInfo{
     font-family: monospace;
@@ -69,8 +74,8 @@ marquee{
     background-color: rgb(236, 216, 129);
     text-decoration: none;
     position: absolute;
-    left: 58.5%;
-    bottom: 45%;
+    left: 58.25%;
+    bottom: 41%;
 
 }
 .footer{
