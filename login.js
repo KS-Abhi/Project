@@ -1,7 +1,9 @@
-let email = document.getElementById("email");
-let password = document.getElementById("password");
-
 function validate(){
+
+  let email = document.getElementById("email");
+  let password = document.getElementById("password");
+
+
     let regemail=/^([a-zA-Z0-9\.-]+)@([a-zA-Z0-9-]+)\.([a-z]{2,8})(.[a-z]{2,8})?$/;
     let regpwd = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,20}$/;
     if(regemail.test(email.value)){
