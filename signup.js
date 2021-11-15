@@ -44,7 +44,7 @@ function validate(){
        }
    }
    else{
-       error1.innerHTML="Invalid Number format";
+       error1.innerHTML="Invalid!! enter a valid number";
        error1.style.color="red";
        return false;
    }
