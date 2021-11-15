@@ -3,6 +3,7 @@
 <head>
     <title>Kerala Tourism</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
@@ -70,21 +71,24 @@
 <!-- Navbar -->
 <!-- Marquee -->
 <div>
-  <marquee behavior="scroll" direction="left" scrollamount="12">#IndiaFightsCorona. Kerala schools reopen after long covid-19 break. Be alert and get away yourselves from false/fake information. Access all necessary information related to Covid-19 from reliable and verified sources.</marquee>
+  <marquee behavior="scroll" direction="left" scrollamount="12">#IndiaFightsCorona. Kerala schools reopen after long 
+     covid-19 break. Be alert and get away yourselves from false/fake information. Access all necessary information
+     related to Covid-19 from reliable and verified sources.</marquee>
 </div>
 <!-- Marquee -->
 
 <!-- Container -->
   <div class="form">
-    <form class="container">
+    <form class="container" action="login.html" onsubmit="return validate()">
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+          <label for="error" id="error"></label>
           <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
         </div>
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="password">
         </div>
         <!-- <div class="mb-3 form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -92,7 +96,10 @@
         </div> -->
         <button type="submit" class="btn btn-primary">Login</button>
       </form>
+      <br>
+      <label class="new-account">
       <p id="new-account"><a href="signup.html">Creat an account</a></p>
+      </label>
   </div> 
 <!-- Container -->
 
@@ -104,6 +111,7 @@
   </footer> 
 </div>
 <!-- Footer -->
+<script src="login.js"></script>
 </body>
 </html>
 
