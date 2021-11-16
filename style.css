@@ -21,8 +21,8 @@
     font-weight: bold;
 }
 .clt-text{
-    position: relative;
-    bottom: 180px;
+    position: absolute;
+    bottom: -260px;
     left: 14px;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
@@ -50,6 +50,12 @@ h3{
     font-weight: bolder;
     text-decoration: underline;
     font-style: italic;
+}
+h5{
+    font-size: larger;
+    font-weight: lighter;
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .subtext{
     position: absolute;
