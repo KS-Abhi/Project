@@ -36,7 +36,21 @@
     font-weight: bold;
     color: #000;
 } 
-
+.alpy-text{
+    position: absolute;
+    top:120%;
+    left: 14px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+h3{
+    font-size: x-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-style: italic;
+}
 .subtext{
     position: absolute;
     bottom: -130px;
