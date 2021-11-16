@@ -12,12 +12,14 @@ function validate()
       {
       error.innerText="Provide valid email";
       error.style.color="red"
+      alert("Provide a valid email")
       }
      
      if(password.value=="")
       {
         error1.innerText="Type your password";
         error1.style.color="red";
+        alert("Password invalid")
       }
         return false;
     }
@@ -52,6 +54,7 @@ function validate()
       return true;
       else
       return false;
+      alert("Provide a valid email")
   }      
 
 }
