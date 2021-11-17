@@ -16,17 +16,17 @@ function validate(){
        error.style.color = "green";
        
        
-    var lengthy = password.value.length;
+    var length = password.value.length;
        if(regnumber.test(number.value)){
            error1.innerHTML="Valid Number format";
            error1.style.color="green";
          if(regpwd.test(password.value)){
-           if(lengthy<8){
+           if(length<8){
                error2.innerHTML = "Password strength: Poor";
                error2.style.color = "red";
                return true;
            }
-           else if(lengthy<8){
+           else if(length<8){
                error2.innerHTML = "Password strength: Medium";
                error2.style.color = "orange";
                return true;
